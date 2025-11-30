@@ -55,11 +55,11 @@ inference on external images**.
 
 Run main script with arguments:
 
-    python main.py --epochs <num_epochs> --data_path <path> --train True --save_path <output_path> --save_images True
+    python main.py --epochs <num_epochs> --data_path <path> --train --save_path <output_path>
 
 ## 🧪 Testing
 
-    python main.py --test True --data_path <path_to_test_data>
+    python main.py --test --data_path <path_to_test_data>
 
 ## 🎨 Visualization
 
@@ -72,7 +72,6 @@ Run main script with arguments:
     --train         (bool)  Enable training mode
     --test          (bool)  Enable testing/inference mode
     --save_path     (str)   Directory to save model/logs (default: /kaggle/working/)
-    --save_images   (bool)  Save generated images (default: False)
 
 ## ✔ Requirements
 
